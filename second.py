@@ -1,10 +1,10 @@
-#Write a program that will take user input of cost price and selling price and determines whether its a loss or a profit
-cost_price=float(input("enter the value of cost price: "))
-selling_price=float(input("enter the value of selling price: "))
-if selling_price>cost_price:
-    print("profit")
-else:
-    print("loss")
-
-
+#Write a program to find the simple interest
+#principal amount=1000
+#rate of interest=5%
+#time=2 year
+value_principal=1000
+rate_interest=5
+time=2
+simple_interest=float((value_principal*rate_interest*time/100))
+print(simple_interest)
 
